@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80" role="img" aria-label="CineVerse">
+  <title>CineVerse</title>
+  <defs>
+    <linearGradient id="cv-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FB7185" />
+      <stop offset="1" stop-color="#BE123C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: film-perforation ring + play button + orbiting dot -->
+  <circle cx="40" cy="40" r="35" fill="none" stroke="#E11D48" stroke-opacity="0.55" stroke-width="2" pathLength="120" stroke-dasharray="3 3" />
+  <circle cx="40" cy="40" r="26" fill="none" stroke="url(#cv-ring)" stroke-width="5" />
+  <path d="M34 30L52 40L34 50Z" fill="#F8FAFC" stroke="#F8FAFC" stroke-width="3" stroke-linejoin="round" />
+  <circle cx="64.75" cy="15.25" r="4.5" fill="#FBBF24" />
+
+  <!-- Wordmark: CINE (white) -->
+  <path transform="translate(96 0)" fill="none" stroke="#F8FAFC" stroke-width="6" d="M21 32V30Q21 25 16 25H8Q3 25 3 30V50Q3 55 8 55H16Q21 55 21 50V48" />
+  <path transform="translate(125 0)" fill="#F8FAFC" d="M0 22H6V58H0Z" />
+  <path transform="translate(136 0)" fill="#F8FAFC" d="M0 22H6V58H0ZM20 22H26V58H20ZM0 22H6L26 58H20Z" />
+  <path transform="translate(167 0)" fill="#F8FAFC" d="M0 22H20V28H6V37H17V43H6V52H20V58H0Z" />
+
+  <!-- Wordmark: VERSE (red) -->
+  <path transform="translate(192 0)" fill="#E11D48" d="M0 22H6.5L13 48L19.5 22H26L16.5 58H9.5Z" />
+  <path transform="translate(223 0)" fill="#E11D48" d="M0 22H20V28H6V37H17V43H6V52H20V58H0Z" />
+  <g transform="translate(248 0)">
+    <path fill="#E11D48" d="M0 22H6V58H0Z" />
+    <path fill="none" stroke="#E11D48" stroke-width="6" d="M3 25H15Q21 25 21 31V34Q21 40 15 40H3" />
+    <path fill="#E11D48" d="M12 41H18L24.5 58H18Z" />
+  </g>
+  <path transform="translate(277.5 0)" fill="none" stroke="#E11D48" stroke-width="6" d="M21 32V30Q21 25 16 25H8Q3 25 3 30V34Q3 40 9 40H15Q21 40 21 46V50Q21 55 16 55H8Q3 55 3 50V48" />
+  <path transform="translate(306.5 0)" fill="#E11D48" d="M0 22H20V28H6V37H17V43H6V52H20V58H0Z" />
+</svg>

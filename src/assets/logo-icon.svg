@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-label="CineVerse">
+  <title>CineVerse</title>
+  <defs>
+    <linearGradient id="cv-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FB7185" />
+      <stop offset="1" stop-color="#BE123C" />
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="35" fill="none" stroke="#E11D48" stroke-opacity="0.55" stroke-width="2" pathLength="120" stroke-dasharray="3 3" />
+  <circle cx="40" cy="40" r="26" fill="none" stroke="url(#cv-ring)" stroke-width="5" />
+  <path d="M34 30L52 40L34 50Z" fill="#F8FAFC" stroke="#F8FAFC" stroke-width="3" stroke-linejoin="round" />
+  <circle cx="64.75" cy="15.25" r="4.5" fill="#FBBF24" />
+</svg>
